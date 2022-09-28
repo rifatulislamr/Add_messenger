@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
+import Riad from './Components/Riad/Riad';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
        <h1>Rifatul Islam Riad</h1>
-       <h1>i want to add this line</h1>
-       <p>hi everyone </p>
+       <Riad></Riad>
       </header>
     </div>
   );
