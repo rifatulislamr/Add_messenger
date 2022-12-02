@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { MessengerChat } from "react-messenger-chat-plugin";
-
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
+       <div className="App">
         <div className="App-header">
          
           <h2>Welcome to Agro Dairy Firm</h2>
@@ -14,7 +8,7 @@ class App extends Component {
           <h4>change </h4>
         </div>
         <MessengerChat
-    pageId="455120307946675"
+    pageId="455120307946665"
     language="English"
     themeColor={"#000000"}
     bottomSpacing={20}
